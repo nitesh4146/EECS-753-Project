@@ -6,7 +6,7 @@ setup(
     name=package_name,
     version='0.0.1',
     packages=[
-        'bumblebee',
+        'e2e',
     ],
     py_modules=[
         'collect',
