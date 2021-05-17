@@ -219,9 +219,6 @@ def main():
             print("[info] Model saved at", datetime.datetime.now())
         
         # predictor()
-        img = cv2.imread("/home/slickmind/lanefollowing/ros2_ws/src/lane_following/bumblebee/images/center-2021-05-05T17:27:24.319855.jpg")
-        img = crop_scale(img)
-        img = np.expand_dims(img, axis=0)
         model = load_modelh5()
 
         plot_history(loss_history_list)
