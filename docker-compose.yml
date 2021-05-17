@@ -41,7 +41,7 @@ services:
     network_mode: host
     init: true
     privileged: true
-    command: ["python", "-u", "/lanefollowing/ros2_ws/src/lane_following/bumblebee/trainer.py"]
+    command: ["python", "-u", "/lanefollowing/ros2_ws/src/lane_following/e2e/trainer.py"]
 
   drive:
     build:
