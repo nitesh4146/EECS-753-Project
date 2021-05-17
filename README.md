@@ -10,12 +10,11 @@ References: https://www.svlsimulator.com/docs/
 * `git clone --recurse-submodules https://github.com/nitesh4146/lanefollowing.git`
 * `docker pull lgsvl/lanefollowing:latest`
 * `cd lanefollowing/ros2_ws/src/lane_following/`
-* `git clone https://github.com/nitesh4146/bumblebee.git`
 
 * To build ROS2 packages go back to the root lanefollowing directory and build ros:  
 `docker-compose up build_ros`
 
-* Collect Data (The data will be recorded in bumblebee/data directory)  
+* Collect Data (The data will be recorded in e2e/data directory)  
 `docker-compose up collect`  
 and run the simulator
 
@@ -35,7 +34,7 @@ lanefollowing
 │ └── ros2_ws  
 │   └── src  
 │       ├── lane_following  
-│       │   ├── bumblebee  
+│       │   ├── e2e  
 │       │   │   ├── hdf5  
 │       │   │   ├── model  
 │       │   │   ├── README.md  
