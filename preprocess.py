@@ -78,5 +78,3 @@ def plot_hist(labels, nbin=25):
 
     return hist, bins
 
-
-# crop_scale(cv2.imread("/home/slickmind/lanefollowing/ros2_ws/src/lane_following/bumblebee/images/center-2021-05-05T19:45:42.285457.jpg"))
