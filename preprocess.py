@@ -73,8 +73,8 @@ def plot_hist(labels, nbin=25):
     hist, bins = np.histogram(labels, nbin)
     width = 0.7 * (bins[1] - bins[0])
     center = (bins[:-1] + bins[1:]) / 2
-    plt.bar(center, hist, align='center', width=width)
-    plt.show()
+    # plt.bar(center, hist, align='center', width=width)
+    # plt.show()
 
     return hist, bins
 

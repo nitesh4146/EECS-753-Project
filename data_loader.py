@@ -6,8 +6,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import h5py
-import tkinter as tk
-from tkinter import filedialog
+# import tkinter as tk
+# from tkinter import filedialog
 
 # Set data directories
 WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -18,7 +18,7 @@ HDF5_DIR = WORKING_DIR + "/hdf5"
 MODEL_DIR = os.path.join(WORKING_DIR, "model")
 
 CAMERA_LIST = ["center", "right", "left"]
-BATCH_SIZE = 2500
+BATCH_SIZE = 5000
 
 
 def data_to_hdf5():
@@ -66,6 +66,7 @@ def data_to_hdf5():
     for data in maps_data[0]:                               # Iterate over each map
         print("\n[info] Processing: ", data.split("/")[-2:])
         csv_df = pd.read_csv(data + "/" + DATA_CSV, header=None)
+        csv_df.sample(frac=1)
 
         for index, row in csv_df.iterrows():                # Iterate over data for each map
             # First column of DATA_CSV contains image timestamp
@@ -124,9 +125,9 @@ def data_from_hdf5(filename):
     return images, labels
 
 
-def dir_selector():
-    root = tk.Tk()
-    root.withdraw()
+# def dir_selector():
+#     root = tk.Tk()
+#     root.withdraw()
 
-    DATA_DIR = filedialog.askdirectory(parent=root,initialdir="/",title='Please select your maps directory')
-    print("DATA_DIR changed to", DATA_DIR)
+#     DATA_DIR = filedialog.askdirectory(parent=root,initialdir="/",title='Please select your maps directory')
+#     print("DATA_DIR changed to", DATA_DIR)
