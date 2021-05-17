@@ -1,4 +1,4 @@
-## ROS2 End-to-End Learning Model with SVL Simulator
+## Implementation & Evaluation of End-to-End Learning for Autonomous Vehicles using SVL
 
 ### End-to-end project directory: `EECS-753-Project/ros2_ws/src/lane_following/e2e/`
 
