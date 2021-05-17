@@ -2,8 +2,6 @@
 
 ### End-to-end project directory: `EECS-753-Project/ros2_ws/src/lane_following/e2e/`
 
-References: https://www.svlsimulator.com/docs/
-
 ### Prerequisites
 * Docker installed
 * Atleast 8GB of Graphic card
@@ -58,3 +56,5 @@ lanefollowing
 │       │   │   ├── drive_params.yaml  
 │       │   │   └── drive_visual_params.yaml  
 
+
+References: https://www.svlsimulator.com/docs/
