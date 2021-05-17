@@ -1,5 +1,7 @@
 ## ROS2 End-to-End Learning Model with SVL Simulator
 
+### End-to-end project directory: `EECS-753-Project/ros2_ws/src/lane_following/e2e/`
+
 References: https://www.svlsimulator.com/docs/
 
 ### Prerequisites
