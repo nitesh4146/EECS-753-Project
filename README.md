@@ -1,9 +1,9 @@
-# <center>Bumblebee <img src="images/bee.png" alt="alt text" width="48" height="48"></center>
+# Implementation & Evaluation of End-to-End Learning for Autonomous Vehicles using SVL 
 
 ## Prerequisites
 * SVL Simulator - [Instructions here](https://www.svlsimulator.com/docs/installation-guide/installing-simulator/)
 * Data Link - [Download from Drive](https://drive.google.com/file/d/1rL90epx_HgIjThv9ABoYMDS5SetPue1_/view?usp=sharing)  into maps folder
-* Data Directory Structures - `./bumblebee/maps/Map1/data1/`
+* Data Directory Structures - `./lanefollowing/maps/Map1/data1/`
 
 
 ## Table of Contents
