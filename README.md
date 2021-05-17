@@ -7,7 +7,7 @@ References: https://www.svlsimulator.com/docs/
 * Atleast 8GB of Graphic card
 
 ### Instructions:
-* `git clone --recurse-submodules https://github.com/nitesh4146/lanefollowing.git`
+* `https://github.com/nitesh4146/EECS-753-Project.git`
 * `docker pull lgsvl/lanefollowing:latest`
 * `cd lanefollowing/ros2_ws/src/lane_following/`
 
